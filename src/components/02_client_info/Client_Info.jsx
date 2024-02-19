@@ -16,18 +16,18 @@ export default function Client_Info() {
           </div>
         </div>
 
-        <div className="invoiceIDBox">
-          <p className="invoice">
-            <span>Invoice:</span>
-            <span>2021-009</span>
+        <div className="invoiceTitleFlexbox__invoiceIdBox">
+          <p>
+            <span className="invoiceIdPlaceholder">Invoice:</span>
+            <span className="invoiceIdData">2021-009</span>
           </p>
-          <p className="invoiceDate">
-            <span>Invoice Date:</span>
-            <span>19/05/21</span>
+          <p>
+            <span className="invoiceIdPlaceholder">Invoice Date:</span>
+            <span className="invoiceIdData">19/05/21</span>
           </p>
-          <p className="dueDate">
-            <span>Due Date:</span>
-            <span>02/06/21</span>
+          <p>
+            <span className="invoiceIdPlaceholder">Due Date:</span>
+            <span className="invoiceIdData">02/06/21</span>
           </p>
         </div>
       </section>

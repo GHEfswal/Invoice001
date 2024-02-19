@@ -1,5 +1,4 @@
 .invoiceTitleFlexbox {
-  //   border-bottom: solid #b4b4b4 2px;
   padding: 2rem 7rem;
   font-size: 18px;
 
@@ -12,7 +11,6 @@
 
     &__billTo {
       p {
-        // border: dotted red 3px;
         margin: 0;
         font-weight: bold;
       }
@@ -20,8 +18,21 @@
 
     &__jonSDetails {
       p {
-        // border: dotted green 3px;
-        margin: 0 0 0 12px;
+        margin: 0 0 0 30px;
+      }
+    }
+  }
+
+  &__invoiceIdBox {
+    p {
+      margin: 0 0 12px 0;
+      display: flex;
+
+      .invoiceIdPlaceholder {
+        font-weight: bold;
+        text-align: right;
+        margin-right: 70px;
+        margin-left: auto;
       }
     }
   }
