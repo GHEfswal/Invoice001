@@ -1,0 +1,34 @@
+.contentBox {
+  border-bottom: solid #b4b4b4 2px;
+  padding: 5rem 7rem;
+  //   border-left: dotted red 2px;
+  //   border-right: dotted red 2px;
+
+  &__headerInfo {
+    // border: dotted green 3px;
+
+    &__logo {
+      //   border: dotted red 1px;
+      img {
+        width: 160px;
+      }
+    }
+
+    &__text {
+      p {
+        // border: dotted green 2px;
+        width: 620px;
+        font-size: 20px;
+        text-align: right;
+        margin: 0 0 5px 0;
+
+        .headerInfoPlaceholder {
+          font-weight: bold;
+        }
+      }
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

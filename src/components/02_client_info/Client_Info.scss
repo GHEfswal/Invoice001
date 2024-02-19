@@ -1,0 +1,28 @@
+.invoiceTitleFlexbox {
+  //   border-bottom: solid #b4b4b4 2px;
+  padding: 2rem 7rem;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__billToJonSFlexbox {
+    display: flex;
+
+    &__billTo {
+      p {
+        // border: dotted red 3px;
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+
+    &__jonSDetails {
+      p {
+        // border: dotted green 3px;
+        margin: 0 0 0 12px;
+      }
+    }
+  }
+}
