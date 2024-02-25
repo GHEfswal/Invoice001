@@ -1,0 +1,72 @@
+.titleAll {
+  padding: 1rem 7rem;
+}
+
+.bothBoxes {
+  display: flex;
+
+  border-top: solid #b4b4b4 2px;
+  border-bottom: solid #b4b4b4 2px;
+
+  &__descriptionBox {
+    margin-right: auto;
+    width: 700px;
+    p {
+      font-size: 18px;
+      margin: 30px 0 30px 0;
+    }
+  }
+
+  &__quantityAndValueBox {
+    display: flex;
+
+    width: 500px;
+    justify-content: space-between;
+
+    p {
+      font-size: 18px;
+      margin: 30px 0 30px 0;
+      width: 80px;
+      text-align: center;
+    }
+  }
+}
+
+.servicesDoneAll {
+  border-bottom: solid #b4b4b4 2px;
+}
+
+.contentBoxes {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  &__contentDesc {
+    margin-right: auto;
+    width: 700px;
+
+    .item01 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .item01Desc {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+
+  &__contentQAndV01 {
+    display: flex;
+    margin-left: auto;
+    width: 500px;
+    justify-content: space-between;
+
+    p {
+      font-size: 18px;
+      margin: 0;
+      width: 80px;
+      text-align: center;
+    }
+  }
+}

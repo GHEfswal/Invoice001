@@ -1,0 +1,96 @@
+.footerTop {
+  padding: 1rem 7rem;
+}
+
+.tsAndCs {
+  font-size: 18px;
+  p {
+    margin: 0;
+  }
+  margin-top: 30px;
+  margin-bottom: 50px;
+  &__title {
+    font-weight: bold;
+  }
+}
+
+.borderBlocks {
+  display: flex;
+
+  &__block1 {
+    border-bottom: solid #b4b4b4 3px;
+    height: 40px;
+    width: 7rem;
+  }
+  &__block2 {
+    border-top: solid #b4b4b4 3px;
+    border-left: solid #b4b4b4 3px;
+    border-right: solid #b4b4b4 3px;
+    height: 40px;
+    width: 10rem;
+  }
+  &__block3 {
+    border-bottom: solid #b4b4b4 3px;
+    height: 40px;
+    flex-grow: 3;
+  }
+}
+
+.footerBottom {
+  padding: 1rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  &__qrCodeAndPaymentInfo {
+    display: flex;
+
+    gap: 40px;
+
+    &__qrCode {
+      img {
+        width: 10rem;
+      }
+      width: fit-content;
+      p {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+
+    &__paymentInfo {
+      margin-top: 20px;
+      &__bankDetails {
+        p {
+          margin: 0;
+
+          .bank,
+          .sortCode,
+          .accountNo,
+          .accHolder,
+          .swift,
+          .iban {
+            font-weight: bold;
+          }
+        }
+      }
+
+      &__linkToPayment {
+        margin-top: 20px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &__invoiceLogo {
+    align-self: center;
+    text-align: right;
+    img {
+      width: 120px;
+    }
+  }
+}

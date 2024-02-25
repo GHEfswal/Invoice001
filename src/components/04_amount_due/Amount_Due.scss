@@ -1,0 +1,42 @@
+.totalAll {
+  padding: 1rem 7rem;
+  margin-top: 20px;
+
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.totalBox {
+  width: 500px;
+
+  p {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  &__subtotalBox {
+    border-bottom: solid #b4b4b4 2px;
+    padding-bottom: 20px;
+    p {
+      margin-bottom: 14px;
+    }
+
+    .totalPlaceholder {
+      font-weight: bold;
+    }
+  }
+
+  &__amountPaidBox {
+    margin-top: 30px;
+    .amountDue {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 14px;
+    }
+  }
+}
